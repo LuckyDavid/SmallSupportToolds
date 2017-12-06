@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><ProcesosEIAC>
+  <Cabecera>
+    <FechaCreacion>2017-11-02</FechaCreacion>
+    <Emisor>
+      <CodigoInterno>eQuote</CodigoInterno>
+      <CodigoDGS> </CodigoDGS>
+    </Emisor>
+    <Receptor>
+      <CodigoInterno>Magic</CodigoInterno>
+      <CodigoDGS> </CodigoDGS>
+    </Receptor>
+    <DatosProcesos>
+      <DetalleProcesos>
+        <DetalleProceso>
+          <ClasePoliza> </ClasePoliza>
+          <Transaccion> </Transaccion>
+          <Periodo> </Periodo>
+          <FechaDesde> </FechaDesde>
+          <FechaHasta> </FechaHasta>
+        </DetalleProceso>
+      </DetalleProcesos>
+    </DatosProcesos>
+    <DatosLote>
+      <IdLote>1366</IdLote>
+      <NumeroFicheros> </NumeroFicheros>
+      <SecuenciaFichero> </SecuenciaFichero>
+    </DatosLote>
+    <Version>5.0</Version>
+  </Cabecera>
+  <Objetos>
+    <Poliza>
+      <DatosPoliza>
+        <IdPoliza/>
+        <IdAplicacion>IP6</IdAplicacion>
+        <DatosMediador>
+          <IdMediador>
+            <CodigoInterno>573205</CodigoInterno>
+          </IdMediador>
+          <NombreMediador>BBVA Mediacion</NombreMediador>
+        </DatosMediador>
+      </DatosPoliza>
+      <SituacionPoliza>PR</SituacionPoliza>
+      <ClasePoliza>NP</ClasePoliza>
+      <Fechas>
+        <FechaSituacion>2017-11-02</FechaSituacion>
+        <FechaEfectoInicial>2017-11-17</FechaEfectoInicial>
+        <FechaEfectoActual>2017-11-17</FechaEfectoActual>
+        <FechaVencimiento>2018-11-16</FechaVencimiento>
+      </Fechas>
+      <DatosRiesgos>
+        <Riesgo>
+          <NumeroOrden>1</NumeroOrden>
+          <DescripcionRiesgo>Management Liability Portfolio</DescripcionRiesgo>
+          <IdRiesgo>MLP</IdRiesgo>
+          <DatosCoberturas>
+            <Cobertura>
+              <NumeroOrden>1</NumeroOrden>
+              <IdCobertura>DO</IdCobertura>
+              <DescripcionCobertura>Directors &amp;amp; Officers</DescripcionCobertura>
+              <CapitalAsegurado>600000.00</CapitalAsegurado>
+              <DatosLimitesAsegurados/>
+              <DatosFranquicias/>
+              <DatosImportes>
+                <PrimaTotal>0</PrimaTotal>
+                <PrimaNeta>220</PrimaNeta>
+                <DatosCargos>
+                  <Cargo>
+                    <NumeroOrden>1</NumeroOrden>
+                    <ClaseCargo/>
+                    <Importe>0</Importe>
+                    <DescripcionCargo/>
+                  </Cargo>
+                </DatosCargos>
+              </DatosImportes>
+            </Cobertura>
+            <Cobertura>
+              <NumeroOrden>2</NumeroOrden>
+              <IdCobertura>EP</IdCobertura>
+              <DescripcionCobertura>Employment practices liability</DescripcionCobertura>
+              <CapitalAsegurado>600000.00</CapitalAsegurado>
+              <DatosLimitesAsegurados/>
+              <DatosFranquicias>
+                <Franquicia>
+                  <NumeroOrden>1</NumeroOrden>
+                  <ClaseFranquicia> </ClaseFranquicia>
+                  <DescripcionFranquicia/>
+                  <ValorExacto>1500.00</ValorExacto>
+                </Franquicia>
+              </DatosFranquicias>
+              <DatosImportes>
+                <PrimaTotal>0</PrimaTotal>
+                <PrimaNeta>220</PrimaNeta>
+                <DatosCargos>
+                  <Cargo>
+                    <NumeroOrden>1</NumeroOrden>
+                    <ClaseCargo/>
+                    <Importe>0</Importe>
+                    <DescripcionCargo/>
+                  </Cargo>
+                </DatosCargos>
+              </DatosImportes>
+            </Cobertura>
+            <Cobertura>
+              <NumeroOrden>3</NumeroOrden>
+              <IdCobertura>CLL</IdCobertura>
+              <DescripcionCobertura>Corporate Legal Liability</DescripcionCobertura>
+              <CapitalAsegurado>600000.00</CapitalAsegurado>
+              <DatosLimitesAsegurados/>
+              <DatosFranquicias>
+                <Franquicia>
+                  <NumeroOrden>1</NumeroOrden>
+                  <ClaseFranquicia> </ClaseFranquicia>
+                  <DescripcionFranquicia/>
+                  <ValorExacto>1500.00</ValorExacto>
+                </Franquicia>
+              </DatosFranquicias>
+              <DatosImportes>
+                <PrimaTotal>0</PrimaTotal>
+                <PrimaNeta>110</PrimaNeta>
+                <DatosCargos>
+                  <Cargo>
+                    <NumeroOrden>1</NumeroOrden>
+                    <ClaseCargo/>
+                    <Importe>0</Importe>
+                    <DescripcionCargo/>
+                  </Cargo>
+                </DatosCargos>
+              </DatosImportes>
+            </Cobertura>
+          </DatosCoberturas>
+        </Riesgo>
+      </DatosRiesgos>
+      <DatosImportes>
+        <Importes>
+          <DatosMoneda>
+            <Moneda>EUR</Moneda>
+          </DatosMoneda>
+          <DatosCargos>
+            <Cargo>
+              <NumeroOrden>1</NumeroOrden>
+              <ClaseCargo>IM</ClaseCargo>
+              <Importe>6.15</Importe>
+              <DescripcionCargo>Impuestos</DescripcionCargo>
+            </Cargo>
+          </DatosCargos>
+        </Importes>
+      </DatosImportes>
+      <FraccionPago>SE</FraccionPago>
+      <GestionCobro>
+        <ClaseGestion>CO</ClaseGestion>
+        <DatosFormaPago>
+          <DatosCuentaCorriente>
+            <IBAN>ES2207202874274215420262</IBAN>
+            <BIC>BBVAESMM</BIC>
+            <Titular>
+              <PersonaJuridica>
+                <IdPersona>R4100255A</IdPersona>
+                <Nombre>Paco Pinto</Nombre>
+                <Domicilio>
+                  <Poblacion>Madrid</Poblacion>
+                </Domicilio>
+              </PersonaJuridica>
+            </Titular>
+          </DatosCuentaCorriente>
+        </DatosFormaPago>
+      </GestionCobro>
+      <Tomador>
+        <PersonaJuridica>
+          <TipoIdentificacion>CI</TipoIdentificacion>
+          <IdPersona>R4100255A</IdPersona>
+          <RazonSocial>Paco Pinto</RazonSocial>
+          <IdCliente> </IdCliente>
+          <Email>Filipe.Homem@Hiscox.com</Email>
+          <Telefono>999999999</Telefono>
+          <Idioma>Castellano</Idioma>
+          <Domicilio>
+            <NombreVia>Calle Jorge Juan 1 1 1 1</NombreVia>
+            <CodigoPostal>28001</CodigoPostal>
+            <Poblacion>Madrid</Poblacion>
+            <Pais>SP</Pais>
+          </Domicilio>
+          <Actividad>
+            <IdActividad>2139</IdActividad>
+            <DescripcionActividad>Instalación, venta y mantenimiento de hardware </DescripcionActividad>
+            <Facturacion>500000</Facturacion>
+            <NumeroEmpleados>2</NumeroEmpleados>
+          </Actividad>
+        </PersonaJuridica>
+      </Tomador>
+      <Asegurados/>
+      <OtrosDatos>
+        <Dato>
+          <NumeroOrden>1</NumeroOrden>
+          <IdDato>EEP</IdDato>
+          <DescripcionDato>Industria Hiscox</DescripcionDato>
+          <IdSubdato>2</IdSubdato>
+          <ValorSubdato>Default Level No</ValorSubdato>
+        </Dato>
+        <Dato>
+          <NumeroOrden>2</NumeroOrden>
+          <IdDato/>
+          <DescripcionDato>Condiciones Particulares</DescripcionDato>
+          <IdSubdato> </IdSubdato>
+          <ValorSubdato> </ValorSubdato>
+        </Dato>
+        <Dato>
+          <NumeroOrden>3</NumeroOrden>
+          <IdDato>xe03380@grupobbva.com</IdDato>
+          <DescripcionDato>Contacto General BBVA</DescripcionDato>
+          <IdSubdato>agente-xe03380</IdSubdato>
+          <ValorSubdato>Contact Name</ValorSubdato>
+        </Dato>
+        <Dato>
+          <NumeroOrden>4</NumeroOrden>
+          <IdDato>1128</IdDato>
+          <DescripcionDato>Código Oficina BBVA</DescripcionDato>
+          <IdSubdato>xe03380</IdSubdato>
+          <ValorSubdato>Código Agente BBVA</ValorSubdato>
+        </Dato>
+      </OtrosDatos>
+    </Poliza>
+  </Objetos>
+</ProcesosEIAC>
