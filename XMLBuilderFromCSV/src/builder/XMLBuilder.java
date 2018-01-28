@@ -2,11 +2,14 @@ package builder;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Properties;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -28,8 +31,12 @@ public class XMLBuilder {
 
 	public static Document baselineDocument;
 	public static List<CSVEntry> csvEntries;
+	public static String OutputfilePrefix = "OutputDocument";
 	
 	public static void main(String[] args) {
+		
+		// Set document name (prefix)
+		setOutputFileName();
 		
 		// Load baseline document
 		loadBaselineDocument("Baseline.xml");
@@ -61,7 +68,7 @@ public class XMLBuilder {
 			}
 			
 			// write the content into xml file
-			writeOutputDocument("OutputDocument" + outputDocNumber + ".xml");
+			writeOutputDocument(OutputfilePrefix + outputDocNumber + ".xml");
 			
 			outputDocNumber++;
 		}
@@ -135,6 +142,35 @@ public class XMLBuilder {
         }
 	}
 
+	private static void setOutputFileName(){
+		InputStream input = null;
+		Properties prop = new Properties();
+		String tempName;
+		
+		try{
+			input = new FileInputStream("config.properties");
+			
+			//load properties file
+			prop.load(input);
+			tempName = prop.getProperty("OutputFilePrefix");
+			if(tempName!=null){
+				OutputfilePrefix = tempName;
+			}
+			
+		} catch(IOException ex){
+			ex.printStackTrace();
+		}finally{
+			if(input!=null){
+				try{
+					input.close();
+				}catch(IOException ex){
+					ex.printStackTrace();
+				}
+			}
+		}
+		
+	}
+	
 	/*
 	 * 
 		Node idioma = baselineDocument.getElementsByTagName("Idioma").item(0);
