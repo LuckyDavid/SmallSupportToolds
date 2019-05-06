@@ -17,4 +17,13 @@ public class CSVEntry {
 	public List<CSVAttribute> getAttributes(){
 		return _attributes;
 	}
+	
+	public CSVAttribute getAttribute(String searchColumn){
+		for(int i = 0; i < _attributes.size(); i++){
+			if(_attributes.get(i).getColumn().compareTo(searchColumn)==0){
+				return _attributes.get(i);
+			}
+		}
+		return null;
+	}
 }
