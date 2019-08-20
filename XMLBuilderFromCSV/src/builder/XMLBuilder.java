@@ -203,13 +203,13 @@ public class XMLBuilder {
 				MandatoryFields = Arrays.asList(mandatory.split(Delimiter));
 			}
 
-			AggregatedEqualFields = Arrays.asList(prop.getProperty("AggregatedEqual").split(Delimiter));
+			AggregatedEqualFields = Arrays.asList(prop.getProperty("AggregatedEqual").split(","));
 
-			AggregatedSumFields = Arrays.asList(prop.getProperty("AggregatedSum").split(Delimiter));
+			AggregatedSumFields = Arrays.asList(prop.getProperty("AggregatedSum").split(","));
 
-			AggregatedCountFields = Arrays.asList(prop.getProperty("AggregatedCount").split(Delimiter));
+			AggregatedCountFields = Arrays.asList(prop.getProperty("AggregatedCount").split(","));
 
-			RecursiveElements = Arrays.asList(prop.getProperty("RecursiveElements").split(Delimiter));
+			RecursiveElements = Arrays.asList(prop.getProperty("RecursiveElements").split(","));
 
 		} catch(IOException ex){
 			ex.printStackTrace();
